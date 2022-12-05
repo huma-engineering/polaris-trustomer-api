@@ -6,10 +6,6 @@ authors = ["Jon Daly <jonathan.daly@sensynehealth.com>"]
 keywords = ["Trustomer", "Configuration", "DHOS"]
 repository = "https://github.com/draysontechnologies/dhos-trustomer-api"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 dhos-redis = "1.*"
